@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Create Account</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="auth-bg">
+
+<div class="auth-container">
+    <h2>Create Account</h2>
+    <p class="subtitle">Join us and find your dream job</p>
+
+    <div class="form-group">
+        <input type="text" id="regName" required>
+        <label>Full Name</label>
+    </div>
+
+    <div class="form-group">
+        <input type="text" id="regPhone" required>
+        <label>Mobile Number</label>
+    </div>
+
+    <div class="form-group">
+        <input type="email" id="regEmail" required>
+        <label>Email Address</label>
+    </div>
+
+    <div class="form-group">
+        <input type="password" id="regPassword" required>
+        <label>Password</label>
+    </div>
+
+    <button onclick="register()" class="primary-btn full-btn">
+        Create Account
+    </button>
+
+    <p class="switch-text">
+        Already have an account?
+        <a href="login.html">Login</a>
+    </p>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>

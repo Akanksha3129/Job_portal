@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Job Portal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+    <h1 class="logo">JobPortal</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="jobs.html">Jobs</a>
+        <a href="login.html">Login</a>
+        <a href="register.html" class="btn">Register</a>
+    </nav>
+    <span id="userName"></span>
+<button id="logoutBtn" onclick="logout()" style="display:none;" class="btn">
+    Logout
+</button>
+
+</header>
+
+<!-- HERO SECTION -->
+<section class="hero">
+    <h2 class="fade-in">Find Your Dream Job</h2>
+    <p class="fade-in-delay">
+        Search thousands of jobs and apply in one click
+    </p>
+
+    <div class="search-box fade-in-delay2">
+        <input type="text" id="searchInput" placeholder="Job title or location">
+        <button onclick="searchJobs()" class="primary-btn">Search</button>
+    </div>
+</section>
+
+<!-- FEATURES SECTION -->
+<section class="features">
+
+    <div class="feature-card slide-up" data-action="jobs">
+        <h3>🔍 Easy Search</h3>
+        <p>Find jobs by title and location easily.</p>
+    </div>
+
+    <div class="feature-card slide-up delay" data-action="jobs">
+        <h3>💼 Apply Fast</h3>
+        <p>Apply to jobs with a single click.</p>
+    </div>
+
+    <div class="feature-card slide-up delay2" data-action="account">
+        <h3>👤 User Account</h3>
+        <p>Create account and manage your applications.</p>
+    </div>
+
+</section>
+
+<!-- ✅ SCRIPT MUST BE AT END -->
+<script src="js/script.js"></script>
+</body>
+</html>
+

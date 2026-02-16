@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jobs</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <h1>Jobs</h1>
+</header>
+
+<div id="jobsContainer" class="jobs-grid"></div>
+
+<script src="js/script.js"></script>
+<!-- APPLY JOB MODAL -->
+<div id="applyModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeApplyForm()">&times;</span>
+
+        <h3>Apply for Job</h3>
+
+        <input type="text" id="appName" placeholder="Full Name">
+        <input type="text" id="appPhone" placeholder="Mobile Number">
+        <input type="email" id="appEmail" placeholder="Email">
+        <input type="text" id="appEducation" placeholder="Education">
+        <input type="file" id="appResume">
+
+        <button onclick="submitApplication()" class="primary-btn full-btn">
+            Submit Application
+        </button>
+    </div>
+</div>
+</body>
+</html>
