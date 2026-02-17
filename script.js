@@ -1,7 +1,7 @@
 /*********************************
  * JOBS DATABASE (FAKE)
  *********************************/
-const jobs = [
+ const jobs = [
     { id: 1, title: "Frontend Developer", company: "ABC Tech", location: "Remote" },
     { id: 2, title: "Backend Developer", company: "XYZ Solutions", location: "Bangalore" },
     { id: 3, title: "Web Designer", company: "Creative Studio", location: "Delhi" }
@@ -243,3 +243,4 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 });
+
